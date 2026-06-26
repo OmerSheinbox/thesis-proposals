@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "n_scenarios": 20,
+    "n_rollouts": 20,
+    "agents": [
+      "RANDOM",
+      "GREEDY",
+      "ENTROPY",
+      "POMDP_V3",
+      "ORACLE"
+    ],
+    "elapsed_sec": 28.48
+  },
+  "metrics": {
+    "RANDOM": {
+      "M1_success_rate": 0.2175,
+      "M2_catastrophic_rate": 0.3075,
+      "M3_steps_to_commit": 1.0,
+      "M4_calibration": 0.8,
+      "M5_regret": 1.2111,
+      "M6_cup_success": 0.2075,
+      "n_episodes": 400,
+      "pass_k": 0.95
+    },
+    "GREEDY": {
+      "M1_success_rate": 0.4875,
+      "M2_catastrophic_rate": 0.0,
+      "M3_steps_to_commit": 1.0,
+      "M4_calibration": 0.65,
+      "M5_regret": 0.2767,
+      "M6_cup_success": 0.4875,
+      "n_episodes": 400,
+      "pass_k": 0.5
+    },
+    "ENTROPY": {
+      "M1_success_rate": 0.9525,
+      "M2_catastrophic_rate": 0.005,
+      "M3_steps_to_commit": 5.3,
+      "M4_calibration": 0.9798,
+      "M5_regret": 0.0395,
+      "M6_cup_success": 0.8275,
+      "n_episodes": 400,
+      "pass_k": 1.0
+    },
+    "POMDP_V3": {
+      "M1_success_rate": 0.945,
+      "M2_catastrophic_rate": 0.0,
+      "M3_steps_to_commit": 5.1775,
+      "M4_calibration": 0.9596,
+      "M5_regret": 0.0325,
+      "M6_cup_success": 0.7,
+      "n_episodes": 400,
+      "pass_k": 1.0
+    },
+    "ORACLE": {
+      "M1_success_rate": 1.0,
+      "M2_catastrophic_rate": 0.0,
+      "M3_steps_to_commit": 1.0,
+      "M4_calibration": 1.0,
+      "M5_regret": 0.0,
+      "M6_cup_success": 1.0,
+      "n_episodes": 400,
+      "pass_k": 1.0
+    }
+  },
+  "episode_count": {
+    "RANDOM": 400,
+    "GREEDY": 400,
+    "ENTROPY": 400,
+    "POMDP_V3": 400,
+    "ORACLE": 400
+  }
+}
